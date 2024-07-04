@@ -20,6 +20,20 @@ if (BestHackClubReviewer === 'fayd') {
   console.log('No one is a good reviewer );');
 }
 
+// -the switch keyword- //
+// the switch keyword checks for multiple conditions like the else if block, but instead of checking for one condition each time, it checks for multiple and is easier to write. for example:
+let athleteFinalPosition = 'first place';
+let HackClubFounder = 'Zach Latta';
+switch (HackClubFounder) {
+  case 'John Veryreal':
+    console.log('Founder is John Veryreal');
+    break;
+  case 'Mr. Cats':
+    console.log('Founder is Mr. Cats');
+    break;
+  case 'Zach Latta':
+    console.log('Founder is Zach Latta');
+    break;
+  default:
+    console.log('There is no founder ):');
 
-
-// this is all i could do in an hour, im gonna be honest im a slow learner, or relearner for that matter. but i hope you enjoyed reading this
